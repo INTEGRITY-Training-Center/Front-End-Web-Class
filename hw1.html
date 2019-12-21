@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>HomeWork</title>
+	<meta charset="utf-8" />
+</head>
+<link rel="stylesheet " href="homework1.css" />
+<body>
+    <p class="para">Are you fool</p>
+    <img src=" " />
+    
+    <input type="button"  value="Yes" id="btmyes"/>
+    
+   
+    <input type="button" value="No" onmouseover ="changetext()" onmouseleave="changeleave()" id="btmno"/>
+  
+     <script>
+         function changetext( )
+         {
+             document.getElementById("btmyes").value = "No";
+             document.getElementById("btmno").value = "Yes";
+         }
+         function changeleave() {
+             document.getElementById("btmyes").value = "Yes";
+             document.getElementById("btmno").value = "No";
+         }
+     </script>
+</body>
+
+</html>

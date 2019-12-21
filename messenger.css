@@ -1,0 +1,21 @@
+﻿body{margin:0;
+    background-color:blues;
+    overflow:scroll;
+}
+
+.col-md-6.top{text-align:center;}
+.bgcol{background-color:#0665b6;}
+.bgw{background-color:white;
+    padding:10px 20px;
+}
+.tb{font-weight:bold;}
+.mt{margin-top:20px;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+.ta{border-right-width:medium;
+    
+}
+
+
+

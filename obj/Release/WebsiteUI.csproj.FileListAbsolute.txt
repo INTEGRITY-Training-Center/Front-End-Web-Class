@@ -1,0 +1,5 @@
+D:\front end\FrontEnd\WebsiteUI\bin\WebsiteUI.dll.config
+D:\front end\FrontEnd\WebsiteUI\bin\WebsiteUI.dll
+D:\front end\FrontEnd\WebsiteUI\bin\WebsiteUI.pdb
+D:\front end\FrontEnd\WebsiteUI\obj\Release\WebsiteUI.dll
+D:\front end\FrontEnd\WebsiteUI\obj\Release\WebsiteUI.pdb

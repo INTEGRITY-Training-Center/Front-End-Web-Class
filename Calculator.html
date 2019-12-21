@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CALCULATOR</title>
+    <style>
+       p{color:Background}
+       #pCol{
+           color:white;
+       }     
+    </style>
+	<meta charset="utf-8" />
+</head>
+
+ 
+<body>
+    
+    <p id="pCol">Simple Calculator</p>
+    
+    
+        <from name="Calculator">
+            <input type="text" name="display" id="display" /><br />
+            <input type="button" name="one" value="1" onclick="calculator.display.value += '1'">
+            <input type="button" name="btn2" value="2" onclick="displaynum(btn2.value+='2')"/>
+            <input type="button" name="btn3" value="3" onclick="displaynum(btn3.value)"/>
+            <input type="button" name="addbtn" value=" + " onclick="displaynum(addbtn.value)" /><br />
+            <input type="button" name="btn4" value="4" onclick="displaynum(btn4.value)"/>
+            <input type="button" name="btn5" value="5" onclick="displaynum(btn5.value)"/>
+            <input type="button" name="btn6" value="6" onclick="displaynum(btn6.value)"/>
+            <input type="button" name="subbtn" value=" - " onclick="displaynum(subbtn.value)"/><br />
+            <input type="button" name="btn7" value="7" onclick="displaynum(btn7.value)"/>
+            <input type="button" name="btn8" value="8" onclick="displaynum(btn8.value)"/>
+            <input type="button" name="btn9" value="9" onclick="displaynum(btn9.value)"/>
+            <input type="button" name="btnmul" value=" * " onclick="displaynum(btnmul.value)"/><br />
+            <input type="button" name="btnZero" value="0" onclick="displaynum(btnZero.value)"/>
+            <input type="button" name="dotbtn" value="." onclick="displaynum(dotbtn.value)"/>     
+            <input type="button" name="eqbtn" value=" = "/>
+            <input type="button" name="divbtn" value="/"  onclick="displaynum(divbtn.value)"/>
+
+
+</from>
+       
+       
+   <script>
+       function displaynum(n1)
+       {
+
+          
+           Calculator.text.value = Calculator.display.valur + n1;
+         }
+         
+     </script>
+   
+</body>
+</html>
